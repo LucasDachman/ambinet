@@ -1,20 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:400,700,900|Roboto&display=swap');
 
 body {
     font-family: 'Gothic A1', 'Helvetica', sans-serif;
     font-weight: 400;
+    color: rgb(58, 58, 58);
+}
+
+#container {
+    max-width: 800px;
+    width: 88vw;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    display: inline-block;
+    width: 15em;
+    padding-bottom: 3em;
 }
 
 h1 {
     font-size: 368%;
+    font-weight: 400;
+    line-height: 0.87;
+    margin: 0.6em 0px;
+}
+
+h1 b {
     font-weight: 900;
-    line-height: 0.94;
 }
 
 h2 {
-    font-weight: 700;
+    margin-top: 4.5em;
+    font-weight: 900;
 }
 
 p {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    width: 70%;
     /* letter-spacing: 0.06em; */
 }
