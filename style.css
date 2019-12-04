@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900|Roboto&display=swap');
 
+:root {
+    --black: rgb(58, 58, 58);
+}
+
 body {
     font-family: 'Gothic A1', 'Helvetica', sans-serif;
     font-weight: 400;
-    color: rgb(58, 58, 58);
+    color: var(--black);
+    margin: 0px;
+}
+
+nav {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 28px; */
+    width: 100%;
+    background: var(--black);
+    color: white;
+}
+
+nav img {
+    margin-right: auto;
+    width: 28px;
+    padding: 0px 16px;
+}
+
+nav p {
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    padding: 16px;
+}
+
+nav p.current {
+    border-top: 4px solid white;
 }
 
 #container {
@@ -16,11 +49,12 @@ body {
 header {
     display: flex;
     align-items: center;
+    margin-bottom: 4em;
 }
 
 header img {
     display: inline-block;
-    width: 15em;
+    width: 11em;
     padding-bottom: 3em;
 }
 
@@ -36,12 +70,16 @@ h1 b {
 }
 
 section {
-    margin-top: 12em;
+    margin-bottom: 12em;
 }
 
 h2 {
     font-weight: 900;
     font-size: 200%;
+}
+
+h2 b {
+    font-weight: 400;
 }
 
 header h2  {
@@ -51,7 +89,7 @@ header h2  {
     letter-spacing: 0.04em;
 }
 
-p {
+#container p {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     width: 70%;
     font-size: 120%;
