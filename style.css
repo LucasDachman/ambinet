@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:200,400,700,900|Roboto:300&display=swap');
 
 :root {
     --black: rgb(58, 58, 58);
@@ -9,6 +9,10 @@ body {
     font-weight: 400;
     color: var(--black);
     margin: 0px;
+    background-image: url("./img/hand.png");
+    background-repeat: repeat-x;
+    /* background-position: top right; */
+    background-position: top center;
 }
 
 nav {
@@ -93,5 +97,6 @@ header h2  {
     font-family: 'Roboto', 'Helvetica', sans-serif;
     width: 70%;
     font-size: 120%;
+    font-weight: 300;
     letter-spacing: 0.02em;
 }
